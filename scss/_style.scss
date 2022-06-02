@@ -246,8 +246,7 @@ section.form {
         }
 
         .form-right {
-            // background-color: $primary;
-            background: linear-gradient(145deg, $primary 0% 40%, #4edfe2 40% 60%, $primary 60% 100%);
+            background: linear-gradient(145deg, $primary 0% 38%, #4edfe2 38% 62%, $primary 62% 100%);
             color: $white;
             padding: 40px 61px;
 
@@ -260,7 +259,7 @@ section.form {
                 li {
                     line-height: 1.66;
                     padding: 6px 0 6px 20px;
-                    font-size: 1.5625rem; // 18px
+                    font-size: 1.5625rem; // 25px
                     font-weight: 700;
         
                     @include media-breakpoint-down(sm) {
