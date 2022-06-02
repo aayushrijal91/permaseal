@@ -16,9 +16,32 @@ body {
 }
 
 .bordered {
-    border-width: 3.5px;
-    border-style: solid;
+    border: 3.5px solid $primary;
     box-sizing: border-box;
+    border-radius: 6px;
+    color: $white;
+    padding: 13px 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.625rem; // 26px
+    text-transform: uppercase;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 1rem;
+    }
+}
+
+.block-button {
+    background: $primary;
+    color: $white;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1.625rem; // 26px
+    text-transform: uppercase;
+    padding: 15.5px 31px;
 }
 
 // Rounded buttons
@@ -39,6 +62,10 @@ body {
 
 .line-height-2 {
     line-height: 2;
+}
+
+.line-height-3 {
+    line-height: 1.21;
 }
 
 .letter-spacing-1 {
