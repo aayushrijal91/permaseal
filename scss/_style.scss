@@ -154,3 +154,99 @@ section.faq {
         float: right;
     }
 }
+
+section.form {
+    padding: 150px 0;
+    background-color: #2e2e2e;
+
+    .form-wrapper {
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+
+        .form-left {
+            background-color: $white;
+            padding: 70.78px 42px 74px 49px;
+
+            .heading {
+                font-size: 60.91px;
+                font-weight: 700;
+                padding-bottom: 27px;
+            }
+
+            form {
+                input,
+                select,
+                button {
+                    min-height: 50px;
+                    border-radius: 12px;
+                    font-size: 0.875rem;
+
+                    @include media-breakpoint-up(md) {
+                        font-size: 1rem;
+                    }
+
+                    &::placeholder {
+                        color: $light;
+                    }
+
+                    &:focus {
+                        box-shadow: none;
+                        outline: none;
+                    }
+                }
+
+                select {
+                    color: $light;
+
+                    option {
+                        color: $dark;
+                    }
+                }
+
+                button {
+                    min-height: 50px;
+                    font-size: 1.125rem; // 18px
+                    color: $white;
+                    font-weight: 700;
+                    font-family: $font-poppins;
+
+                    @include media-breakpoint-down(sm) {
+                        font-size: 0.875rem;
+                    }
+                }
+
+                .input-group {
+                    border: 1px solid #dadada;
+                    border-radius: 10px;
+                    min-height: 50px;
+
+                    @include media-breakpoint-up(md) {
+                        min-height: 57.52px;
+                    }
+                }
+
+                .input-group-prepend {
+                    margin-right: 0;
+                }
+
+                .input-group-text {
+                    border: none;
+                    border-radius: 20px 0 0 20px;
+                    padding: 0 0 0 14px;
+                    background: transparent;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    button {
+                        font-size: 12.33px;
+                    }
+                }
+            }
+        }
+
+        .form-right {
+            background-color: $primary;
+        }
+    }
+}
