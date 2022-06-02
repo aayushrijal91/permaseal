@@ -93,4 +93,27 @@
 				</div>
 			</div>
 		</div>
+		<div class="banner-bottom">
+			<div class="container-fluid px-0">
+				<div class="row no-gutters align-items-end">
+					<div class="col-3">
+						<div class="pb-2"><?= renderImg("pensioners.png", "lib", "w-100") ?></div>
+						<div class="text-center text-primary text-uppercase h9 fw-900 line-height-1 pt-4">10% Pensioners Discount</div>
+					</div>
+					<div class="col px-5">
+						<div class="text-white fw-700 h9 text-uppercase pb-1">Don't Regret it, Regrout it!</div>
+						<div class="row no-gutters pt-4">
+							<div class="col-12 col-md-7 text-white fw-500 h13 pr-3">
+								<p>One of the greatest myths in our industry is that <span class="text-primary fw-800">the cause of a leaking shower is a plumbing or waterproofing issue,</span> such as leaking taps/shower heads or even a burst pipe.</p>
+								<p>Most of the time this is actually not the case when it comes to a leaking shower.</p>
+							</div>
+							<div class="col-12 col-md-4 text-white fw-500 h13 px-3">
+								<p>Most leaks are caused from the breakdown of grout and can usually be repairs without having to call a plumber or remove any tiles.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-3"><?= renderImg("house.png", "lib", "w-100") ?></div>
+				</div>
+			</div>
+		</div>
 	</header>

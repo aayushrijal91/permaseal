@@ -10,6 +10,35 @@ header {
     }
 
     .banner {
-        padding: 231px 0 143px;
+        padding: 231px 0 50px;
+    }
+}
+
+section.bathroom {
+    padding: 177px 0 84px;
+}
+
+section.about {
+    background: imgUrl("about.png");
+    padding: 154px 0 100px;
+
+    ul.about-list {
+        color: $white;
+        list-style: imgUrl("green-tick.png", "icons");
+        padding-top: 34px;
+
+        li {
+            line-height: 1.66;
+            padding: 12px 0 12px 25px;
+            font-size: 1.125rem; // 18px
+
+            @include media-breakpoint-down(sm) {
+                font-size: 0.875rem;
+            }
+
+            span {
+                font-weight: 800;
+            }
+        }
     }
 }
