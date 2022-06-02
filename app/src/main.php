@@ -321,6 +321,16 @@ include __DIR__ . '/header.php';
                 </form>
             </div>
             <div class="col-12 col-lg-6 form-right">
+                <div class="fw-700 h5">PERMASEAL offers a <span class="fw-900">10-Year Warranty</span> on all products and services on construction service & shower repairs.</div>
+                <ul class="form-list">
+                    <li>Silicone Repairs</li>
+                    <li>Pool Seals</li>
+                    <li>Kitchen Resealing</li>
+                    <li>Tiling - Repairs &amp; New Install</li>
+                    <li>Caulking Internal / External</li>
+                    <li>Cosmetic Repairs</li>
+                    <li>Epoxy Grout</li>
+                </ul>
             </div>
         </div>
     </div>

@@ -166,7 +166,7 @@ section.form {
 
         .form-left {
             background-color: $white;
-            padding: 70.78px 42px 74px 49px;
+            padding: 70.78px 42px 66px 49px;
 
             .heading {
                 font-size: 60.91px;
@@ -246,7 +246,28 @@ section.form {
         }
 
         .form-right {
-            background-color: $primary;
+            // background-color: $primary;
+            background: linear-gradient(145deg, $primary 0% 40%, #4edfe2 40% 60%, $primary 60% 100%);
+            color: $white;
+            padding: 40px 61px;
+
+            ul.form-list {
+                color: $white;
+                list-style: imgUrl("black-tick.png", "icons");
+                padding-top: 34px;
+                padding-inline-start: 70px;
+        
+                li {
+                    line-height: 1.66;
+                    padding: 6px 0 6px 20px;
+                    font-size: 1.5625rem; // 18px
+                    font-weight: 700;
+        
+                    @include media-breakpoint-down(sm) {
+                        font-size: 0.875rem;
+                    }
+                }
+            }
         }
     }
 }
