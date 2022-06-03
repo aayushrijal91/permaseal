@@ -41,54 +41,50 @@ include __DIR__ . '/header.php';
 
 <section class="cta">
     <div class="container-fluid">
-        <div class="row justify-content-center">
-            <div class="col-xxl-12">
-                <div class="row no-gutters justify-content-between cta-slider">
-                    <div class="col-6 col-md-4 col-xl-auto">
-                        <div class="cta-card">
-                            <div><?= renderImg("cta-1.png", "lib", "cta-img") ?></div>
-                            <div class="cta-title">
-                                <div>Water-Repellent<br> &amp; Easy To Clean</div>
-                                <div class="sm-text">(Dropeffect®<br class="d-lg-none">Technology)</div>
-                            </div>
-                        </div>
+        <div class="row no-gutters justify-content-between cta-slider">
+            <div class="col-6 col-md-4 col-xl-auto">
+                <div class="cta-card">
+                    <div><?= renderImg("cta-1.png", "lib", "cta-img") ?></div>
+                    <div class="cta-title">
+                        <div>Water-Repellent<br> &amp; Easy To Clean</div>
+                        <div class="sm-text">(Dropeffect®<br class="d-lg-none">Technology)</div>
                     </div>
-                    <div class="col-6 col-md-4 col-xl-auto">
-                        <div class="cta-card">
-                            <div><?= renderImg("cta-2.png", "lib", "cta-img") ?></div>
-                            <div class="cta-title">Rapid<br> Drying</div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-auto">
+                <div class="cta-card">
+                    <div><?= renderImg("cta-2.png", "lib", "cta-img") ?></div>
+                    <div class="cta-title">Rapid<br> Drying</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-auto">
+                <div class="cta-card">
+                    <div><?= renderImg("cta-3.png", "lib", "cta-img") ?></div>
+                    <div class="cta-title">
+                        Anti-Efflorescence<br> For Uniform Colour
                     </div>
-                    <div class="col-6 col-md-4 col-xl-auto">
-                        <div class="cta-card">
-                            <div><?= renderImg("cta-3.png", "lib", "cta-img") ?></div>
-                            <div class="cta-title">
-                                Anti-Efflorescence<br> For Uniform Colour
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-auto">
+                <div class="cta-card">
+                    <div><?= renderImg("cta-4.png", "lib", "cta-img") ?></div>
+                    <div class="cta-title">Stable &amp;<br> Uniform Colour</div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-auto">
+                <div class="cta-card">
+                    <div><?= renderImg("cta-5.png", "lib", "cta-img") ?></div>
+                    <div class="cta-title">
+                        Grouted Areas<br> Are Quickly<br> Ready For Use
                     </div>
-                    <div class="col-6 col-md-4 col-xl-auto">
-                        <div class="cta-card">
-                            <div><?= renderImg("cta-4.png", "lib", "cta-img") ?></div>
-                            <div class="cta-title">Stable &amp;<br> Uniform Colour</div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-xl-auto">
-                        <div class="cta-card">
-                            <div><?= renderImg("cta-5.png", "lib", "cta-img") ?></div>
-                            <div class="cta-title">
-                                Grouted Areas<br> Are Quickly<br> Ready For Use
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4 col-xl-auto">
-                        <div class="cta-card">
-                            <div><?= renderImg("cta-6.png", "lib", "cta-img") ?></div>
-                            <div class="cta-title">
-                                <div>Mould-Resistant</div>
-                                <div class="sm-text">(Bioblock®Technology)</div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-xl-auto">
+                <div class="cta-card">
+                    <div><?= renderImg("cta-6.png", "lib", "cta-img") ?></div>
+                    <div class="cta-title">
+                        <div>Mould-Resistant</div>
+                        <div class="sm-text">(Bioblock®Technology)</div>
                     </div>
                 </div>
             </div>
@@ -99,25 +95,25 @@ include __DIR__ . '/header.php';
 <section class="before-after">
     <div class="container-fluid">
         <div class="row no-gutters justify-content-center">
-            <div class="col-12 col-md-6 col-lg-3 py-2 p-md-3 py-lg-0">
+            <div class="col-12 col-md-6 col-xl-3 py-2 p-md-3 py-xl-0">
                 <div class="cocoen">
                     <?= renderImg("before-1.png", "lib") ?>
                     <?= renderImg("after-1.png", "lib") ?>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 py-2 p-md-3 py-lg-0">
+            <div class="col-12 col-md-6 col-xl-3 py-2 p-md-3 py-xl-0">
                 <div class="cocoen">
                     <?= renderImg("before-1.png", "lib") ?>
                     <?= renderImg("after-1.png", "lib") ?>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 py-2 p-md-3 py-lg-0">
+            <div class="col-12 col-md-6 col-xl-3 py-2 p-md-3 py-xl-0">
                 <div class="cocoen">
                     <?= renderImg("before-1.png", "lib") ?>
                     <?= renderImg("after-1.png", "lib") ?>
                 </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3 py-2 p-md-3 py-lg-0">
+            <div class="col-12 col-md-6 col-xl-3 py-2 p-md-3 py-xl-0">
                 <div class="cocoen">
                     <?= renderImg("before-1.png", "lib") ?>
                     <?= renderImg("after-1.png", "lib") ?>

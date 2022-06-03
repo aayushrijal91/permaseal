@@ -55,6 +55,12 @@ $(() => {
                 }
             },
             {
+                breakpoint: 1100,
+                settings: {
+                    slidesToShow: 3,
+                }
+            },
+            {
                 breakpoint: 900,
                 settings: {
                     slidesToShow: 2,

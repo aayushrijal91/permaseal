@@ -9,7 +9,7 @@ header {
         background-size: contain;
     }
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(lg) {
         background-position-y: bottom;
     }
 
@@ -155,6 +155,12 @@ section.about-2 {
     background: imgUrl("about-2.png") right top;
     padding: 201px 0 121px;
 
+    @include media-breakpoint-down(lg) {
+        background: imgUrl("about.png") right top;
+        background-position-y: bottom;
+        padding: 151px 0 71px;
+    }
+
     @include media-breakpoint-down(md) {
         background-size: contain;
         background-position-y: 20%;
@@ -180,6 +186,10 @@ section.about-2 {
             padding: 12px 0 12px 25px;
             font-size: 1.125rem; // 18px
             font-weight: 800;
+
+            @include media-breakpoint-down(lg) {
+                padding: 4px 0 4px 4px;
+            }
 
             @include media-breakpoint-down(sm) {
                 font-size: 0.875rem;
@@ -279,6 +289,14 @@ section.form {
                 padding: 70.78px 42px 66px 49px;
             }
 
+            @include media-breakpoint-up(lg) {
+                padding: 60px 24px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                padding: 70.78px 42px 66px 49px;
+            }
+
             .heading {
                 font-weight: 700;
                 padding-bottom: 27px;
@@ -370,12 +388,20 @@ section.form {
                 padding: 40px 61px;
             }
 
+            @include media-breakpoint-up(lg) {
+                padding: 40px 24px;
+            }
+
+            @include media-breakpoint-up(xl) {
+                padding: 40px 61px;
+            }
+
             ul.form-list {
                 color: $white;
                 list-style: imgUrl("black-tick.png", "icons");
                 padding-inline-start: 40px;
                 padding-top: 16px;
-                
+
                 @include media-breakpoint-up(md) {
                     padding-top: 34px;
                     padding-inline-start: 70px;
