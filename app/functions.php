@@ -3,7 +3,7 @@ include __DIR__ . './env.php';
 
 $site = "Permaseal";
 $phone_number = "1300 757 638";
-$admin_email = 'arijal@aiims.com.au';
+$admin_email = 'arijal@aiims.com.au'; // info@permaseal.net.au
 $bcc_email = "";
 $no_reply_email = 'no-reply@permaseal.com.au';
 $recaptcha_client_secret = $client_secret;

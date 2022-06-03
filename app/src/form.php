@@ -20,13 +20,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $name = $_POST['name'];
         $phone = $_POST['phone'];
         $email = $_POST['email'];
-        $message = $_POST['message'];
+        $postcode = $_POST['postcode'];
+        $date = $_POST['date'];
+        $time = $_POST['time'];
+        $service = $_POST['service'];
 
         $message = '<!DOCTYPE html><html><body>' .
             'Name: <strong>' . strip_tags($name) . '</strong><br>' .
             'Phone: <strong>' . strip_tags($phone) . '</strong><br>' .
             'Email Address: <strong>' . strip_tags($email) . '</strong><br>' .
-            'Message: <strong>' . strip_tags($message) . '</strong><br>';
+            'Post Code: <strong>' . strip_tags($postcode) . '</strong><br>' .
+            'Preferred Inspection Date: <strong>' . strip_tags($date) . '</strong><br>' .
+            'Preferred Inspection Time: <strong>' . strip_tags($time) . '</strong><br>' .
+            'Service: <strong>' . strip_tags($service) . '</strong><br>';
 
         $headers = "MIME-Version: 1.0\r\n" .
             "Content-type: text/html; charset=utf-8\r\n" .
