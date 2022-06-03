@@ -97,26 +97,26 @@ include __DIR__ . '/header.php';
         <div class="row no-gutters justify-content-center">
             <div class="col-12 col-md-6 col-xl-3 py-2 p-md-3 py-xl-0">
                 <div class="cocoen">
-                    <?= renderImg("before-1.png", "lib","before-img") ?>
-                    <?= renderImg("after-1.png", "lib","after-img") ?>
+                    <?= renderImg("before-1.jpg", "lib","before-img") ?>
+                    <?= renderImg("after-1.jpg", "lib","after-img") ?>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-3 py-2 p-md-3 py-xl-0">
                 <div class="cocoen">
-                    <?= renderImg("before-1.png", "lib","before-img") ?>
-                    <?= renderImg("after-1.png", "lib","after-img") ?>
+                    <?= renderImg("before-2.jpg", "lib","before-img") ?>
+                    <?= renderImg("after-2.jpg", "lib","after-img") ?>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-3 py-2 p-md-3 py-xl-0">
                 <div class="cocoen">
-                    <?= renderImg("before-1.png", "lib","before-img") ?>
-                    <?= renderImg("after-1.png", "lib","after-img") ?>
+                    <?= renderImg("before-3.jpg", "lib","before-img") ?>
+                    <?= renderImg("after-3.jpg", "lib","after-img") ?>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-xl-3 py-2 p-md-3 py-xl-0">
                 <div class="cocoen">
-                    <?= renderImg("before-1.png", "lib","before-img") ?>
-                    <?= renderImg("after-1.png", "lib","after-img") ?>
+                    <?= renderImg("before-4.jpg", "lib","before-img") ?>
+                    <?= renderImg("after-4.jpg", "lib","after-img") ?>
                 </div>
             </div>
         </div>
