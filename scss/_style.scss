@@ -151,6 +151,14 @@ section.cta {
     }
 }
 
+section.before-after {
+    .before-img,
+    .after-img {
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
 section.about-2 {
     background: imgUrl("about-2.png") right top;
     padding: 201px 0 121px;
