@@ -4,7 +4,7 @@ include __DIR__ . '/header.php';
 ?>
 
 <section class="bathroom">
-    <div class="container px-0 px-md-3">
+    <div class="container px-0 px-lg-3">
         <div class="row no-gutters justify-content-center">
             <div class="col-auto">
                 <?= renderImg("bathroom.png", "lib", "w-100") ?>
@@ -18,8 +18,8 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-lg-11">
                 <div class="row no-gutters">
-                    <div class="col-md-6"><?= renderImg("about.png", "lib", "w-100") ?></div>
-                    <div class="col-lg-6 px-md-6">
+                    <div class="col-lg-6"><?= renderImg("about.png", "lib", "w-100") ?></div>
+                    <div class="col-lg-6 px-lg-6">
                         <div class="text-white h2 fw-800 py-4 pt-md-0">
                             Putting off leaking shower repairs for too long <span class="text-primary">can lead to a number of problems in your home.</span>
                         </div>
@@ -44,22 +44,22 @@ include __DIR__ . '/header.php';
         <div class="row justify-content-center">
             <div class="col-lg-11">
                 <div class="row no-gutters justify-content-between">
-                    <div class="col-6 col-xl-auto">
+                    <div class="col-6 col-md-4 col-xl-auto">
                         <div class="cta-card">
                             <div><?= renderImg("cta-1.png", "lib", "cta-img") ?></div>
                             <div class="cta-title">
                                 <div>Water-Repellent<br> &amp; Easy To Clean</div>
-                                <div class="sm-text">(Dropeffect®<br class="d-md-none">Technology)</div>
+                                <div class="sm-text">(Dropeffect®<br class="d-lg-none">Technology)</div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-xl-auto">
+                    <div class="col-6 col-md-4 col-xl-auto">
                         <div class="cta-card">
                             <div><?= renderImg("cta-2.png", "lib", "cta-img") ?></div>
                             <div class="cta-title">Rapid<br> Drying</div>
                         </div>
                     </div>
-                    <div class="col-6 col-xl-auto">
+                    <div class="col-6 col-md-4 col-xl-auto">
                         <div class="cta-card">
                             <div><?= renderImg("cta-3.png", "lib", "cta-img") ?></div>
                             <div class="cta-title">
@@ -67,13 +67,13 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-xl-auto">
+                    <div class="col-6 col-md-4 col-xl-auto">
                         <div class="cta-card">
                             <div><?= renderImg("cta-4.png", "lib", "cta-img") ?></div>
                             <div class="cta-title">Stable &amp;<br> Uniform Colour</div>
                         </div>
                     </div>
-                    <div class="col-6 col-xl-auto">
+                    <div class="col-6 col-md-4 col-xl-auto">
                         <div class="cta-card">
                             <div><?= renderImg("cta-5.png", "lib", "cta-img") ?></div>
                             <div class="cta-title">
@@ -81,7 +81,7 @@ include __DIR__ . '/header.php';
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-xl-auto">
+                    <div class="col-6 col-md-4 col-xl-auto">
                         <div class="cta-card">
                             <div><?= renderImg("cta-6.png", "lib", "cta-img") ?></div>
                             <div class="cta-title">
@@ -99,25 +99,25 @@ include __DIR__ . '/header.php';
 <section class="before-after">
     <div class="container-fluid">
         <div class="row no-gutters justify-content-center">
-            <div class="col-12 col-md-3 px-md-3 py-2 py-md-0">
+            <div class="col-12 col-md-6 col-lg-3 py-2 p-md-3 py-lg-0">
                 <div class="cocoen">
                     <?= renderImg("before-1.png", "lib") ?>
                     <?= renderImg("after-1.png", "lib") ?>
                 </div>
             </div>
-            <div class="col-12 col-md-3 px-md-3 py-2 py-md-0">
+            <div class="col-12 col-md-6 col-lg-3 py-2 p-md-3 py-lg-0">
                 <div class="cocoen">
                     <?= renderImg("before-1.png", "lib") ?>
                     <?= renderImg("after-1.png", "lib") ?>
                 </div>
             </div>
-            <div class="col-12 col-md-3 px-md-3 py-2 py-md-0">
+            <div class="col-12 col-md-6 col-lg-3 py-2 p-md-3 py-lg-0">
                 <div class="cocoen">
                     <?= renderImg("before-1.png", "lib") ?>
                     <?= renderImg("after-1.png", "lib") ?>
                 </div>
             </div>
-            <div class="col-12 col-md-3 px-md-3 py-2 py-md-0">
+            <div class="col-12 col-md-6 col-lg-3 py-2 p-md-3 py-lg-0">
                 <div class="cocoen">
                     <?= renderImg("before-1.png", "lib") ?>
                     <?= renderImg("after-1.png", "lib") ?>
@@ -130,7 +130,7 @@ include __DIR__ . '/header.php';
 <section class="about-2">
     <div class="container">
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-lg-5">
                 <div class="text-white h2 fw-800 text-uppercase">
                     What to look out for?
                 </div>
@@ -153,7 +153,7 @@ include __DIR__ . '/header.php';
                     <li>Damp Carpet</li>
                 </ul>
             </div>
-            <div class="col-md-7 pt-4 pt-md-0">
+            <div class="col-lg-7 pt-4 pt-md-5 pt-lg-0">
                 <?= renderImg("about-2.png", "lib", "w-100") ?>
             </div>
         </div>

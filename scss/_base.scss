@@ -24,6 +24,11 @@ body {
     text-transform: uppercase;
     padding: 13px 31px;
 
+    @include media-breakpoint-down(md) {
+        padding: 13px 6px;
+        font-size: 1rem;
+    }
+
     @include media-breakpoint-down(sm) {
         padding: 8px 6px;
         font-size: 0.875rem;
@@ -39,6 +44,11 @@ body {
     font-size: 1.625rem; // 26px
     text-transform: uppercase;
     padding: 15.5px 31px;
+
+    @include media-breakpoint-down(md) {
+        font-size: 1rem;
+        padding: 15.5px 6px;
+    }
 
     @include media-breakpoint-down(sm) {
         font-size: 0.875rem;

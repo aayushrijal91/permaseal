@@ -1,6 +1,6 @@
 <footer>
 	<div class="container">
-		<div class="row justify-content-center justify-content-lg-between align-items-center py-5 py-lg-5">
+		<div class="row justify-content-center justify-content-md-between align-items-center py-5 py-lg-5">
 			<div class="col-auto">
 				<div class="row no-gutters mb-3 mb-md-0 text-white justify-content-center h15">
 					<div class="col-auto text-center">Copyright <?= date('Y') ?></div>
