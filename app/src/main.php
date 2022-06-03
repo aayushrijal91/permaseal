@@ -16,10 +16,10 @@ include __DIR__ . '/header.php';
 <section class="about">
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-lg-11">
+            <div class="col-xxl-11">
                 <div class="row no-gutters">
                     <div class="col-lg-6"><?= renderImg("about.png", "lib", "w-100") ?></div>
-                    <div class="col-lg-6 px-lg-6">
+                    <div class="col-lg-6 px-lg-4 px-xxl-6">
                         <div class="text-white h2 fw-800 py-4 pt-md-0">
                             Putting off leaking shower repairs for too long <span class="text-primary">can lead to a number of problems in your home.</span>
                         </div>
@@ -42,8 +42,8 @@ include __DIR__ . '/header.php';
 <section class="cta">
     <div class="container-fluid">
         <div class="row justify-content-center">
-            <div class="col-lg-11">
-                <div class="row no-gutters justify-content-between">
+            <div class="col-xxl-12">
+                <div class="row no-gutters justify-content-between cta-slider">
                     <div class="col-6 col-md-4 col-xl-auto">
                         <div class="cta-card">
                             <div><?= renderImg("cta-1.png", "lib", "cta-img") ?></div>

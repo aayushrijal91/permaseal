@@ -29,14 +29,14 @@
 				<div class="row justify-content-center">
 					<div class="col-12 col-lg-11">
 						<div class="row justify-content-center justify-content-lg-between align-items-center">
-							<div class="col-5 col-md-auto pb-4 pb-md-0">
+							<div class="col-5 col-md-auto col-lg-2 col-xxl-auto pb-4 pb-md-0">
 								<a href="./">
 									<?= renderImg("logo.png", "logo", "w-100") ?>
 								</a>
 							</div>
 							<div class="col-12 col-md">
 								<div class="row no-gutters align-items-center justify-content-between">
-									<div class="col col-md-auto letter-spacing-1 text-primary h11 px-md-4 py-2 py-lg-0 text-center">
+									<div class="col col-md-auto col-lg col-xxl-auto letter-spacing-1 text-primary h11 px-md-4 py-2 py-lg-0 text-center">
 										<span class="fw-800 text-white">Get Hassle Free Service</span> Specialising In Leaking Showers &amp; Balconies
 									</div>
 									<div class="col-auto col-md-6 col-lg-auto py-2 py-lg-0">
@@ -74,7 +74,7 @@
 		<div class="banner">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6">
+					<div class="col-lg-7 col-xxl-6">
 						<div class="text-white h1 fw-800 line-height-3 pb-3">Regrout<br class="d-none d-lg-block"> Your Doubt!</div>
 						<div class="fw-500 h4 text-primary py-3 pt-md-4 pr-md-5">Putting off leaking shower repairs for too long can lead to a number of problems in your home.</div>
 						<div class="row no-gutters pt-4 pt-md-5">
@@ -107,7 +107,7 @@
 								<p>One of the greatest myths in our industry is that <span class="text-primary fw-800">the cause of a leaking shower is a plumbing or waterproofing issue,</span> such as leaking taps/shower heads or even a burst pipe.</p>
 								<p>Most of the time this is actually not the case when it comes to a leaking shower.</p>
 							</div>
-							<div class="col-12 col-md-5 col-lg-4 text-white fw-500 h13 px-md-3">
+							<div class="col-12 col-md-5 col-xxl-4 text-white fw-500 h13 px-md-3">
 								<p>Most leaks are caused from the breakdown of grout and can usually be repairs without having to call a plumber or remove any tiles.</p>
 							</div>
 						</div>

@@ -5,15 +5,18 @@
 header {
     background: imgUrl("banner.png") right top;
 
-    @include media-breakpoint-down(md) {
+    @include media-breakpoint-down(xl) {
         background-size: contain;
+    }
+
+    @include media-breakpoint-down(md) {
         background-position-y: bottom;
     }
 
     .header-top-bar {
         padding: 24px 0;
 
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(xxl) {
             padding: 48px 0;
         }
     }
@@ -22,6 +25,10 @@ header {
         padding: 80px 0 50px;
 
         @include media-breakpoint-up(lg) {
+            padding: 150px 0 50px;
+        }
+
+        @include media-breakpoint-up(xxl) {
             padding: 231px 0 50px;
         }
     }
@@ -102,7 +109,7 @@ section.cta {
         }
 
         @include media-breakpoint-up(lg) {
-            padding: 0 24px;
+            padding: 0 14px;
         }
 
         .cta-img {
@@ -110,7 +117,7 @@ section.cta {
         }
 
         .cta-title {
-            height: 105px;
+            height: 165px;
             color: $white;
             display: flex;
             flex-direction: column;
