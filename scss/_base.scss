@@ -16,16 +16,17 @@ body {
     box-sizing: border-box;
     border-radius: 6px;
     color: $white;
-    padding: 13px 31px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 600;
     font-size: 1.625rem; // 26px
     text-transform: uppercase;
+    padding: 13px 31px;
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        padding: 8px 6px;
+        font-size: 0.875rem;
     }
 }
 
@@ -38,6 +39,11 @@ body {
     font-size: 1.625rem; // 26px
     text-transform: uppercase;
     padding: 15.5px 31px;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+        padding: 10.5px 6px;
+    }
 }
 
 // Rounded buttons

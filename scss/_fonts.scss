@@ -5,11 +5,11 @@ h1,
     margin-bottom: 0;
 
     @include media-breakpoint-down(md) {
-        font-size: 3rem;
+        font-size: 6rem;
     }
 
     @include media-breakpoint-down(sm) {
-        font-size: 2rem;
+        font-size: 3.8rem;
     }
 }
 
@@ -47,7 +47,7 @@ h4,
     margin-bottom: 0;
 
     @include media-breakpoint-down(sm) {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
 
@@ -57,7 +57,7 @@ h5,
     margin-bottom: 0;
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
