@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['token'])) {
         $result = mail($to, $subject, $message, $headers);
 
         if ($result) {
-            header('location:./../thankyou');
+            header('location:./../thankyou.php');
         } else {
             throw new Exception('Failed, please submit form again or call us directly.');
         }
